@@ -18,8 +18,9 @@
 }
 .branding-section {
   background-image: url("./branding.jpeg");
-  width: 200px;
-  height: 400px;
-  background-size: contain;
+  width: 500px;
+  height: auto;
+  background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
