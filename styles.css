@@ -23,4 +23,21 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.branding-header {
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+}
+.odin-logo {
+  width: 100px;
+}
+.branding-text {
+  color: white;
 }
