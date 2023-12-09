@@ -29,6 +29,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  color: white;
 }
 .branding-header {
   background-color: rgb(0, 0, 0, 0.5);
@@ -38,6 +39,9 @@
   gap: 5px;
   padding: 10px;
   margin-top: 126px;
+}
+.spacer {
+  flex-grow: 1;
 }
 .odin-logo {
   width: 100px;
@@ -58,4 +62,10 @@
   padding: 40px;
   height: 250px;
   justify-content: flex-end;
+}
+cite {
+  text-decoration: underline;
+}
+footer {
+  justify-self: flex-end;
 }
